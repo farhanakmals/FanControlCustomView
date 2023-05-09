@@ -91,36 +91,6 @@ public class DialView extends View {
         return result;
     }
 
-//    @Override
-//    protected void onDraw(Canvas canvas){
-//        super.onDraw(canvas);
-//        canvas.drawCircle(mWidth/2, mHeight/2, mRadius, mDialPaint);
-//
-//        // draw label
-//
-//        final float labelRadius = mRadius + 20;
-//        Log.d("MRADIUS", String.valueOf(mRadius));
-//        StringBuffer label = mTempLabel;
-//
-//        for (int i = 0; 1 < SELECTION_COUNT; i++ ){
-//            float[] xyData = computerXYPosition(i, labelRadius);
-//            float x = xyData[0];
-//            float y = xyData[1];
-//            label.setLength(0);
-//            label.append(i);
-//            canvas.drawText(label, 0, label.length(), x, y, mTextPaint);
-//        }
-//
-//
-//        //draw small indicator circle
-//
-//        final float markerRadius = mRadius = 35;
-//        float[] xyData = computerXYPosition(mActiveSelection, markerRadius);
-//        float x = xyData[0];
-//        float y = xyData[1];
-//
-//        canvas.drawCircle(x, y, 20, mTextPaint);
-//    }
 
     protected void onDraw(Canvas canvas){
         super.onDraw(canvas);
